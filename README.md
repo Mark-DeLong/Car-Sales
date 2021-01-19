@@ -44,7 +44,7 @@ This project was put together using create-react-app (CRA). You will not need to
 ### Task 2a:  _MVP Requirements:_
 
 **Step 1 - Planning 📝**
-
+//
 - Take a good amount of time to familiarize yourself with the project structure. Figure out what data you have and where it's being used (Pen and paper or a whiteboard will be your best friend here!)
 - Plan out your state management structure as mentioned above. The only requirment is that you _must_ use Redux
 - Write out the steps you think you'll need to complete this project. It seems silly, but doing this with every project will help you grow into a better developer a lot faster.
