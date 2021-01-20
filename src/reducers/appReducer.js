@@ -1,4 +1,4 @@
-import { ADD, DELETE } from './actions/appActions';
+import { ADD, DELETE } from '../actions/appActions';
 
 export const initialState = {
         additionalPrice: 0,
@@ -10,14 +10,14 @@ export const initialState = {
           features: []
         },
         additionalFeatures: [
-          { id: 1, name: 'seatbelts (1)', price: 57 },
-          { id: 2, name: 'airbags', price: 22224 },
-          { id: 3, name: 'windows', price: 19.99 },
-          { id: 4, name: 'tires', price: 9483 }
+          { id: 1, name: 'V-6 engine', price: 1500 },
+          { id: 2, name: 'Racing detail package', price: 1500 },
+          { id: 3, name: 'Premium sound system', price: 500 },
+          { id: 4, name: 'Rear spoiler', price: 250 }
         ]
-};
+}
 
-const Reducer = (state = initialState, action) => {
+export const appReducer = (state = initialState, action) => {
     switch(action.type) {
         case ADD:
             return{
@@ -41,5 +41,3 @@ const Reducer = (state = initialState, action) => {
             return state
     }
 }
-
-export default Reducer
